@@ -5,9 +5,123 @@ To perform ARIMA analyses and predict the temperature values for the next five y
 
 The dataset contains the average temperature of each day for different cities across the world from 1995 to 2020. 
 
+<table>
+  <thead>
+    <tr>
+      <th>Region</th>
+      <th>Country</th>
+      <th>State</th>
+      <th>City</th>
+      <th>Month</th>
+      <th>Day</th>
+      <th>Year</th>
+      <th>AvgTemperature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Africa</td>
+      <td>Algeria</td>
+      <td></td>
+      <td>Algiers</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1995</td>
+      <td>64.2</td>
+    </tr>
+    <tr>
+      <td>Africa</td>
+      <td>Algeria</td>
+      <td></td>
+      <td>Algiers</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1995</td>
+      <td>49.4</td>
+    </tr>
+    <tr>
+      <td>Africa</td>
+      <td>Algeria</td>
+      <td></td>
+      <td>Algiers</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1995</td>
+      <td>48.8</td>
+    </tr>
+  </tbody>
+</table>
+
 ## STEPS IN ANALYSIS
 
 - Created new data frame for Delhi
+<table>
+  <thead>
+    <tr>
+      <th>Region</th>
+      <th>Country</th>
+      <th>State</th>
+      <th>City</th>
+      <th>Month</th>
+      <th>Day</th>
+      <th>Year</th>
+      <th>AvgTemperature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Asia</td>
+      <td>India</td>
+      <td></td>
+      <td>Delhi</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1995</td>
+      <td>50.7</td>
+    </tr>
+    <tr>
+      <td>Asia</td>
+      <td>India</td>
+      <td></td>
+      <td>Delhi</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1995</td>
+      <td>52.1</td>
+    </tr>
+    <tr>
+      <td>Asia</td>
+      <td>India</td>
+      <td></td>
+      <td>Delhi</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1995</td>
+      <td>53.8</td>
+    </tr>
+    <tr>
+      <td>Asia</td>
+      <td>India</td>
+      <td></td>
+      <td>Delhi</td>
+      <td>1</td>
+      <td>4</td>
+      <td>1995</td>
+      <td>53.7</td>
+    </tr>
+    <tr>
+      <td>Asia</td>
+      <td>India</td>
+      <td></td>
+      <td>Delhi</td>
+      <td>1</td>
+      <td>5</td>
+      <td>1995</td>
+      <td>54.5</td>
+    </tr>
+  </tbody>
+</table>
+
 ### Data Visualisation
 - - Trends
   
